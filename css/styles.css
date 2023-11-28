@@ -23,7 +23,7 @@ html, body {
     opacity: 0;
     left: 10px;
     right: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
     padding: 5px 15px 5px 110px;
     border-radius: 15px;
     transition: all 0.5s ease;
@@ -35,13 +35,13 @@ html, body {
 }
 
 .player .info .artist {
-    color: #222;
+    color: rgb(109, 63, 200);
     font-size: 16px;
     margin-bottom: 5px;
 }
 
 .player .info .name {
-    color: #999;
+    color: rgb(109, 63, 200);
     font-size: 12px;
     margin-bottom: 8px;
 }
@@ -58,7 +58,7 @@ html, body {
     left: 0;
     top: 0;
     bottom: 0;
-    background-color: #1eabff;
+    background-color: rgb(109, 63, 200);
     width: 10%;
     transition: all 0.2s ease;
 }
